@@ -1,0 +1,50 @@
+*{
+    font-family: Monospace Bold;
+    font-size: 13px;
+    min-height: 0;
+    color: #f8f8f2;
+}
+
+window#waybar {
+    background-color: rgba(15, 15, 15, 0.8);
+}
+
+#workspaces{
+    margin-top: 3px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+#workspaces button{
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 1px 1px;
+    background-color: rgba(100, 100, 105, 0.35);
+    color: #bd93f9;
+}
+
+#workspaces button.active, #workspaces button.focused{
+    padding: 0 3px;    
+    background: rgba(100, 100, 105, 0.7);
+    color: #282a36;
+}
+
+#tray,
+#mpd,
+#custom-weather,
+#cpu, 
+#temperature, 
+#memory,
+#sway-mode,
+#backlight, 
+#pulseaudio, 
+#custom-vpn,
+#disk,
+#custom-recorder,
+#custom-audiorec,
+#battery, 
+#clock, 
+#network {
+	padding: 0 5px;
+}
