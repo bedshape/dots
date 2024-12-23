@@ -1,0 +1,98 @@
+* {
+    border: none;
+    font-family: "MesloLGS Nerd Font Propo";
+    font-size: 14px;
+    min-height: 0;
+    font-weight: normal;
+}
+
+window#waybar {
+    background: #222222;
+    color: #ebdbb2;
+}
+
+#window {
+    font-weight: bold;
+    font-family: "MesloLGS Nerd Font Propo";
+    padding: 0 20px;
+    margin: 0 4px;
+}
+/*
+#workspaces {
+    padding: 0 5px;
+}
+*/
+
+#workspaces button {
+    padding: 1 7px;
+    background: #222222;
+    color: #ebdbb2;
+    margin: 7 3px;
+    border-radius: 14px;
+}
+
+#workspaces button.active{
+    color: #222222;
+    background: #928373;
+
+}
+
+#custom-musikcube, #clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #tray, #mode, #idle_inhibitor {
+    padding: 0 11px;
+    margin: 0 2px;
+}
+
+#custom-musikcube {
+}
+
+#battery {
+}
+
+#battery icon {
+    color: red;
+}
+
+#battery.charging {
+}
+
+@keyframes blink {
+    to {
+        background-color: #000000;
+        color: #c8c8c8;
+    }
+}
+
+#battery.warning:not(.charging) {
+    color: white;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#cpu {
+}
+
+#memory {
+}
+
+#network {
+}
+
+#network.disconnected {
+    background: #f53c3c;
+}
+
+#pulseaudio {
+}
+
+#pulseaudio.muted {
+}
+
+#tray {
+}
+
+#idle_inhibitor {
+}
+
