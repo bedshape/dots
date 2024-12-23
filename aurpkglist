@@ -2,7 +2,5 @@ cava 0.10.3-2
 musikcube-bin 3.0.4-1
 paru 2.0.4-1
 paru-debug 2.0.4-1
-python-pulsectl 1:24.11.0-1
-python-pulsectl-asyncio 1.2.2-1
 ungoogled-chromium-bin 131.0.6778.139-1
 zramswap 7-2
