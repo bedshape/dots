@@ -99,7 +99,7 @@ xchroot /mnt /bin/bash
 reboot
 
 
-<-- secure boot with sbctl, signed with our own keys because microsoft keys are sussy-->
+<-- secure boot with sbctl, signed with our own keys -->
 
 sbctl create-keys
 sbctl enroll-keys
