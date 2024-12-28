@@ -1,0 +1,100 @@
+[2024-12-25 22:20:32] [info] asio async_connect error: asio.system:111 (Connection refused)
+[2024-12-25 22:20:32] [info] Error getting remote endpoint: asio.system:107 (Transport endpoint is not connected)
+[2024-12-25 22:20:32] [error] handle_connect error: Connection refused
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+ALSA lib pcm_dsnoop.c:567:(snd_pcm_dsnoop_open) unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm_dsnoop.c:567:(snd_pcm_dsnoop_open) unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+SndioOut Info: ---------- sndout.ctor ----------
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+couldn't open play stream: No such file or directory
+SndioOut Info: failed to init device
+PulseOut: destroy
+PulseOut: destructor
+SndioOut Info: joining thread
+SndioOut Info: thread finished
+[flac @ 0x73ee1c0043d0] Could not find codec parameters for stream 1 (Video: mjpeg, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+[flac @ 0x73ee04002800] Could not find codec parameters for stream 1 (Video: mjpeg, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+[flac @ 0x73ee1c0bf7a0] Could not find codec parameters for stream 1 (Video: mjpeg, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+[flac @ 0x73ee04005c40] Could not find codec parameters for stream 1 (Video: mjpeg, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+[flac @ 0x73ee1c0bf7a0] Could not find codec parameters for stream 1 (Video: mjpeg, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+[flac @ 0x73edf80028f0] Could not find codec parameters for stream 1 (Video: mjpeg, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+[flac @ 0x73ee04003e30] Could not find codec parameters for stream 1 (Video: mjpeg, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+[flac @ 0x73ee1c0bf7a0] Could not find codec parameters for stream 1 (Video: mjpeg, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+[flac @ 0x73edf8005630] Could not find codec parameters for stream 1 (Video: mjpeg, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+[flac @ 0x73ee1c0bf7a0] Could not find codec parameters for stream 1 (Video: mjpeg, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+[flac @ 0x73edf8002e80] Could not find codec parameters for stream 1 (Video: mjpeg, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+[flac @ 0x73ee1c0bf7a0] Could not find codec parameters for stream 1 (Video: mjpeg, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+[flac @ 0x73ee04002950] Could not find codec parameters for stream 1 (Video: mjpeg, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+[flac @ 0x73ee1c0bf7a0] Could not find codec parameters for stream 1 (Video: mjpeg, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+[flac @ 0x73ee04001f20] Could not find codec parameters for stream 1 (Video: mjpeg, none): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+ALSA lib pcm_dsnoop.c:567:(snd_pcm_dsnoop_open) unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm_dsnoop.c:567:(snd_pcm_dsnoop_open) unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+SndioOut Info: ---------- sndout.ctor ----------
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+couldn't open play stream: No such file or directory
+SndioOut Info: failed to init device
+PulseOut: destroy
+PulseOut: destructor
+SndioOut Info: joining thread
+SndioOut Info: thread finished
+AlsaOut::AlsaOut() called
+PulseOut::PulseOut() called
+ALSA lib pcm_dsnoop.c:567:(snd_pcm_dsnoop_open) unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2722:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm_dsnoop.c:567:(snd_pcm_dsnoop_open) unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dmix.c:1000:(snd_pcm_dmix_open) unable to open slave
+SndioOut Info: ---------- sndout.ctor ----------
+AlsaOut: destructor
+AlsaOut: joining...
+AlsaOut: thread finished
+AlsaOut: closing device...
+AlsaOut: destroyed.
+couldn't open play stream: No such file or directory
+SndioOut Info: failed to init device
+PulseOut: destroy
+PulseOut: destructor
+SndioOut Info: joining thread
+SndioOut Info: thread finished
+[2024-12-26 00:58:11] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
