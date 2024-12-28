@@ -1,0 +1,94 @@
+<-- partitioning scheme: -->
+
+/dev/xyz1 = /efi
+/dev/xyz2 = / + boot + swap
+
+
+<-- encrypting /dev/xyz/3 -->
+
+cryptsetup luksFormat --type luks1 /dev/xyz2 
+cryptsetup open /dev/xyz2 rbs 
+
+
+<-- setting up lvm on rbs (/dev/xyz2) -->
+
+pvcreate /dev/mapper/rbs
+vgcreate vols /dev/mapper/rbs
+	[assuming 32G ram is used]
+	lvcreate -L 8G -n swap vols
+	lvcreate -L 1G -n boot vols
+	lvcreate -l 100%FREE -n root vols
+
+
+<-- setting up file systems on /dev/xyz2) + efi --> 
+
+mkfs.ext4 /dev/vols/root
+mkfs.ext4 /dev/vols/boot
+mkswap /dev/vols/swap
+mkfs.fat -F32 /dev/xyz1 
+
+
+<-- mounting --> 
+
+mount /dev/vols/root /mnt
+mount --mkdir /dev/vols/boot /mnt/boot
+swapon /dev/vols/swap
+mount --mkdir /dev/xyz1 /mnt/efi
+
+
+<-- bootstrap -->
+
+basestrap /mnt base base-devel linux linux-firmware openrc dbus-openrc networkmanager-openrc cryptsetup-openrc lvm2-openrc seatd-openrc elogind-openrc neovim grub efibootmgr git-openrc zsh zsh-syntax-highlighting artix-archlinux-support
+
+
+
+<-- fstab --> 
+fstabgen -U /mnt >> /mnt/etc/fstab
+
+
+<-- chroot --> 
+
+artix-chroot /mnt
+
+	nvim /etc/mkinitcpio.conf 
+	-> add "encrypt lvm2" between "block" and "filesystems" in the "HOOKS=" line
+
+	echo "GRUB_ENABLE_CRYPTODISK=y" >> /etc/default/grub
+	blkid >> /etc/default/grub
+	nvim /etc/default/grub
+	-> delete all the blkid uuids but the one for /dev/xyz2 and /dev/vols/root 
+	-> add "cryptdevice=UUID=<xyz2 uuid>:rbs root=UUID=</dev/vols/root uuid>"
+	-> delete the remaining blkid xyz2 line at the bottom
+
+	mkinitcpio -P
+
+	grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id="grub" --recheck --modules="tpm" --disable-shim-lock
+	grub-mkconfig -o /boot/grub/grub.cfg
+	
+	ln -s /etc/runit/sv/<service> /etc/runit/runsvdir/default
+	(post reboot, symlink to /run/runit/service instead)
+	ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
+	hwclock --systohc
+	nvim /etc/locale.gen
+	locale-gen
+	echo "hostname" > /etc/hostname
+	passwd
+	useradd twink
+	usermod -aG wheel twink
+	passwd twink
+	EDITOR=nvim visudo
+	rc-update add NetworkManager default
+	exit
+
+
+<-- reboot --> 
+
+reboot
+
+
+<-- secure boot with sbctl, signed with our own keys -->
+
+sbctl create-keys
+sbctl enroll-keys
+sbctl sign --save /boot/vmlinuz-linux 
+sbctl sign --save /efi/EFI/arch/grubx64.efi
