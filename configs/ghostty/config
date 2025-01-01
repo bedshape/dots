@@ -1,6 +1,0 @@
-font-family = MesloLGS Nerd Font Propo
-theme = GruvboxDark 
-gtk-titlebar = false
-window-padding-y = 7
-window-padding-x = 7
-resize-overlay = never
