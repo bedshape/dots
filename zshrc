@@ -7,7 +7,7 @@ setopt interactive_comments
 # history
 HISTSIZE=100000
 SAVEHIST=100000
-HISTFILE="~/.histfile"
+HISTFILE="/home/evie/.histfile"
 setopt inc_append_history
 
 # preload aliases/shortcuts
