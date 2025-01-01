@@ -1,0 +1,132 @@
+00:32:46 [info] [LOG SESSION] ---------- START ----------
+00:32:46 [info] [PluginFactory] loading plugins
+00:32:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libportaudioout.so
+00:32:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpipewireout.so
+00:32:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+00:32:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+00:32:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+00:32:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+00:32:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+00:32:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+00:32:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+00:32:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libopenmptdecoder.so
+00:32:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+00:32:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsndioout.so
+00:32:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+00:32:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+00:32:46 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+00:32:46 [info] [PortAudioOut] Pa_Initialize() return code: 0
+00:32:46 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+00:32:46 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+00:32:46 [info] [PortAudioOut] Pa_Terminate() return code: 0
+00:32:46 [info] [Indexer] indexer source 155697690 running...
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' running
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' running
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+00:32:46 [info] [Indexer] indexer source 155697690 finished
+00:32:46 [info] [Indexer] indexer source -1303229654 running...
+00:32:46 [info] [Indexer] indexer source -1303229654 finished
+00:32:46 [info] [Indexer] scanning /home/evie/music/
+00:32:46 [info] [Indexer] scan completed successfully
+00:32:46 [info] [Indexer] cleanup 1/2
+00:32:46 [info] [Indexer] cleanup 2/2
+00:32:46 [info] [Indexer] optimizing
+00:32:46 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+00:32:46 [info] [Indexer] done!
+00:32:46 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+00:32:46 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+00:32:46 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' enqueued
+00:32:46 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' running
+00:32:46 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' finished with status=4
+00:32:46 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+00:32:46 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+00:32:46 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+00:32:46 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+00:32:46 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+00:32:46 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' running
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' running
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' running
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' running
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' running
+00:32:46 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+00:32:46 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+00:32:46 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+00:32:46 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+00:32:46 [info] [GaplessTransport] starting track at /home/evie/music/Tool - Lateralus [2001]/Tool - 03 - The Patient.flac
+00:32:46 [info] [Player] new instance created
+00:32:46 [info] [GaplessTransport] stop
+00:32:46 [info] [Stream] opening /home/evie/music/Tool - Lateralus [2001]/Tool - 03 - The Patient.flac
+00:32:46 [info] [LocalFileStream] opening file: /home/evie/music/Tool - Lateralus [2001]/Tool - 03 - The Patient.flac
+00:32:46 [info] [ffmpegdecoder] parsing data stream...
+00:32:46 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+00:32:46 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+00:32:46 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+00:32:46 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+00:32:46 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+00:32:46 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+00:32:46 [info] [ffmpegdecoder] found audio stream!
+00:32:46 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+00:32:46 [info] [Streams] found a decoder for /home/evie/music/Tool - Lateralus [2001]/Tool - 03 - The Patient.flac
+00:32:46 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+00:32:46 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+00:32:46 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+00:32:46 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+00:32:47 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+00:32:47 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+00:32:47 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+00:32:47 [info] [GaplessTransport] starting track at /home/evie/music/2016 - Σ - Sigma/01. VIP KID.flac
+00:32:47 [info] [Player] new instance created
+00:32:47 [info] [GaplessTransport] stop
+00:32:47 [info] [Stream] opening /home/evie/music/2016 - Σ - Sigma/01. VIP KID.flac
+00:32:47 [info] [LocalFileStream] opening file: /home/evie/music/2016 - Σ - Sigma/01. VIP KID.flac
+00:32:47 [info] [ffmpegdecoder] parsing data stream...
+00:32:47 [info] [ffmpegdecoder] found audio stream!
+00:32:47 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+00:32:47 [info] [Streams] found a decoder for /home/evie/music/2016 - Σ - Sigma/01. VIP KID.flac
+00:32:47 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=48
+00:32:47 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=49
+00:32:47 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=56
+00:32:47 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=57
+00:32:47 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=58
+00:32:47 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=59
+00:32:47 [info] [PipeWireOut] device refresh finished
+00:32:47 [info] [PipeWireOut] state changed from 0 to 1. (no additional context)
+00:32:47 [info] [PipeWireOut] new stream created and connected successfully
+00:32:47 [info] [PipeWireOut] state changed from 1 to 2. (no additional context)
+00:32:47 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+00:32:47 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+00:32:47 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+00:32:47 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+00:32:47 [info] [Player] new instance created
+00:32:47 [info] [Stream] opening /home/evie/music/2016 - Σ - Sigma/02. ギミアブレスタッナウ.flac
+00:32:47 [info] [LocalFileStream] opening file: /home/evie/music/2016 - Σ - Sigma/02. ギミアブレスタッナウ.flac
+00:32:47 [info] [ffmpegdecoder] parsing data stream...
+00:32:47 [info] [ffmpegdecoder] found audio stream!
+00:32:47 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+00:32:47 [info] [Streams] found a decoder for /home/evie/music/2016 - Σ - Sigma/02. ギミアブレスタッナウ.flac
+00:32:48 [info] [GaplessTransport] pause
+00:32:48 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+00:32:55 [info] [GaplessTransport] resume
+00:32:55 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+00:33:00 [info] [GaplessTransport] pause
+00:33:00 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+00:33:05 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' enqueued
+00:33:05 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' running
+00:33:05 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' finished with status=4
+00:33:05 [info] [GaplessTransport] stop
+00:33:05 [info] [PipeWireOut] shutdown started
+00:33:05 [info] [PipeWireOut] state changed from 2 to 0. (no additional context)
+00:33:05 [info] [PipeWireOut] shutdown complete
