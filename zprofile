@@ -1,0 +1,5 @@
+slstatus -s 
+
+start.sh
+
+
